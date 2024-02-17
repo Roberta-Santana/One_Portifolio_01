@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #5DAD84;
+}
+.texto-destaque{
+    color: #50067B;
+}
+.titulo-blog{
+    margin: 20px;
+    color: #614004;
+}
+.urgente{
+    margin: 6cm;
+    padding: 0;
+    background-color: red;
+    color: yellow;
+}
