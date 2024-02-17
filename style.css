@@ -3,13 +3,13 @@
     padding: 0;
 }
 .apresentacao{
-    display: flex;
+    display: flex; /*Criando um layout sem scroll*/
     /*flex-direction: row | row-reverse | column | column-reverse;*/
     align-items: center;
 }
 
 body{
-    height: 100vh;
+    height: 100vh; /*Ajustando ocupação completa da altura da tela com CSS*/
     box-sizing: border-box;
     background-color: #CDCDC6;
     color: #283639 ;

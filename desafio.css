@@ -3,15 +3,26 @@
     margin: 0;
     background-color: #5DAD84;
 }
+body{
+    height: 100vh;/*Ajustando ocupação completa da altura da tela com CSS*/
+    box-sizing: border-box;
+    display: flex;/*Criando um layout sem scroll*/
+}
+.bloco-de-texto{ 
+    display: flex;
+    align-items: center;
+}
+.titulo-blog{
+    margin-top: 5px;
+    color: #614004;
+}
+
 .texto-destaque{
     color: #50067B;
 }
-.titulo-blog{
-    margin: 20px;
-    color: #614004;
-}
+
 .urgente{
-    margin: 6cm;
+    margin: 20px;
     padding: 0;
     background-color: red;
     color: yellow;
