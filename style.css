@@ -40,8 +40,9 @@ body{
 color: #A92B47;
 }
 
-.link{
-    padding: 5%
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
 }
 
 a{
