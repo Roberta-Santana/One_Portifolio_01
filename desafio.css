@@ -10,24 +10,27 @@ body{
 }
 
 .titulo-blog{
-    
-    margin-top: 5px;
-    color: #614004;
-    align-items: center;
-}
-
-.bloco-de-texto{ 
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 1%;
+    color: #614004;
 }
 
+p{
+    padding: 3%;
+}
+
+.bloco-de-texto{
+    display: flex;
+}
 
 .texto-destaque{
     color: #50067B;
+    
 }
 
 .urgente{
-    padding: 0;
     background-color: red;
     color: yellow;
 }
