@@ -82,3 +82,10 @@ body{
 .apresentacao__conteudo__texto:hover{
     font-size: 23px;
 }
+
+.rodape{
+    text-align: center;
+    font-weight: 600;
+    background-color: aqua;
+    color: #990525;   
+}
