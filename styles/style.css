@@ -2,6 +2,12 @@
 /*importando Font-> Google fonts-> @import->copiar conteudo DENTRO da tag style*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-primaria:#000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria:#22d4fd;
+}
+
 *{
     margin: 0;  
     padding: 0;
@@ -14,7 +20,7 @@ body{
     color: #f6f6f6;
 }
 .cabecalho{
-    padding: 4% 0 0 10%;/*superior e laterial TOP RIGHT BOTTON LEFT-CIMA DIREITA BAIXO ESQUERDA*/
+    padding: 2% 0 0 10%;/*superior e laterial TOP RIGHT BOTTON LEFT-CIMA DIREITA BAIXO ESQUERDA*/
 }
 
 .cabecalho__menu{
@@ -40,14 +46,16 @@ body{
 }
 
 .apresentacao__conteudo{
-    height: 550px;
+    height: 500px;
     display: flex; 
+    align-content: center;
     flex-direction: column;
     gap: 20px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 25px;
+    padding-top: 2%;
     font-family: "Krona One", sans-serif;
 }
 
@@ -56,7 +64,7 @@ body{
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -70,7 +78,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family: "Krona One", sans-serif;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .apresentacao__links__link{
@@ -80,13 +88,13 @@ body{
     justify-content: center;
     gap: 16px;
     color: #f6f6f6;
-    width: 280px;
+    /*LARGURA*/ width: 270px;
     text-align: center;
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 15px 0;/*padding vertical horizontal*/
+    padding: 8px 0;/*padding vertical horizontal*/
     text-decoration: none;
     border-style: double outset;
     box-shadow: 3px 5px #22d5fd6c;
