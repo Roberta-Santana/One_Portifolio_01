@@ -49,7 +49,7 @@ body{
 }
 
 .apresentacao__conteudo{
-    height: 500px;
+    width: 50%;
     display: flex; 
     align-content: center;
     flex-direction: column;
@@ -110,6 +110,10 @@ body{
 /*.apresentacao__conteudo__texto:hover{
     font-size: 23px;
 }*/
+
+.apresentacao__imagem{
+    width: 35%;
+}
 
 .rodape{
     margin-top: 1%;
