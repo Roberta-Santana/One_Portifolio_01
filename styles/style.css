@@ -14,7 +14,7 @@ body{
     color: #f6f6f6;
 }
 .cabecalho{
-    padding: 4% 0 0 15%;/*superior e laterial TOP RIGHT BOTTON LEFT-CIMA DIREITA BAIXO ESQUERDA*/
+    padding: 4% 0 0 10%;/*superior e laterial TOP RIGHT BOTTON LEFT-CIMA DIREITA BAIXO ESQUERDA*/
 }
 
 .cabecalho__menu{
