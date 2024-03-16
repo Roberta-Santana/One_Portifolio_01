@@ -9,7 +9,6 @@
 
 body{
      /* height: 100vh; Ajustando ocupação completa da altura da tela com CSS*/
-    
     box-sizing:border-box;
     background-color: #000000;
     color: #f6f6f6;
@@ -24,6 +23,7 @@ body{
 }
 
 .cabecalho__menu__link{
+    text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -106,5 +106,6 @@ body{
     font-family: "Montserrat", sans-serif;
     padding: 3px;
     background-color: #22d4fd;
-    color: #990525;   
+    color: #990525;
+    margin-top: 1%;
 }
