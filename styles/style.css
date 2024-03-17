@@ -6,7 +6,6 @@
     --cor-primaria:#000000;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria:#22d4fd;
-
     --fonte-titulo:"Krona One", sans-serif;
     --fonte-texto:"Montserrat", sans-serif;
 }
@@ -19,7 +18,7 @@
 body{
      /* height: 100vh; Ajustando ocupação completa da altura da tela com CSS*/
     box-sizing:border-box;
-    background-color: var(--cor-primaria);
+    background-color: #31363F;
     color: var(--cor-secundaria);
 }
 .cabecalho{
@@ -45,7 +44,7 @@ body{
     display: flex; /*Criando um layout sem scroll*/
     /*flex-direction: row | row-reverse | column | column-reverse;*/
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .apresentacao__conteudo{
@@ -112,7 +111,7 @@ body{
 }*/
 
 .apresentacao__imagem{
-    width: 35%;
+    width: 45%;
 }
 
 .rodape{
@@ -122,5 +121,28 @@ body{
     font-family: var(--fonte-texto);
     background-color: var(--cor-terciaria);
     color: #990525;
+}
 
+@media (max-width:800px) {
+    body{
+        background-color: #222831;
+    }
+    .cabecalho{
+     padding: 3%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
+@media (max-width:480px) {
+    body{
+        background-color:var(--cor-primaria);
+        text-align: center;
+    }
 }
